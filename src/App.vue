@@ -55,37 +55,37 @@ export default {
       showName: true,
       accessLevel: 'use',
       todos: [
-  {
-    "userId": 1,
-    "id": 1,
-    "title": "amarelo",
-    "completed": false
-  },
-  {
-    "userId": 1,
-    "id": 2,
-    "title": "azul",
-    "completed": false
-  },
-  {
-    "userId": 1,
-    "id": 3,
-    "title": "vermelho",
-    "completed": false
-  },
-  {
-    "userId": 1,
-    "id": 4,
-    "title": "preto",
-    "completed": true
-  },
-  {
-    "userId": 1,
-    "id": 5,
-    "title": "branco",
-    "completed": false
-  }
-]
+                {
+                  "userId": 1,
+                  "id": 1,
+                  "title": "amarelo",
+                  "completed": false
+                },
+                {
+                  "userId": 1,
+                  "id": 2,
+                  "title": "azul",
+                  "completed": false
+                },
+                {
+                  "userId": 1,
+                  "id": 3,
+                  "title": "vermelho",
+                  "completed": false
+                },
+                {
+                  "userId": 1,
+                  "id": 4,
+                  "title": "preto",
+                  "completed": true
+                },
+                {
+                  "userId": 1,
+                  "id": 5,
+                  "title": "branco",
+                  "completed": false
+                }
+      ] 
     }
   }
 }
