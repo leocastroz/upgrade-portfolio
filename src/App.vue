@@ -25,6 +25,12 @@
       v-bind:key="obj.id"
       class="todos-item"
     >
+    <img 
+    class="photo-people"
+    v-if="obj.imgSrc"
+    v-bind:src="obj.imgSrc" 
+    v-bind:alt="obj.imgAlt"
+    >
       {{ index }} - {{ obj.title }}
     </div>
   </div>
@@ -59,13 +65,17 @@ export default {
                   "userId": 1,
                   "id": 1,
                   "title": "amarelo",
-                  "completed": false
+                  "completed": false,
+                  "imgSrc": 'https://via.placeholder.com/150',
+                  "imgAlt": 'Foto alternativa',
                 },
                 {
                   "userId": 1,
                   "id": 2,
                   "title": "azul",
-                  "completed": false
+                  "completed": false,
+                  "imgSrc": 'https://via.placeholder.com/150',
+                  "imgAlt": 'Foto alternativa',
                 },
                 {
                   "userId": 1,
@@ -97,6 +107,10 @@ export default {
   color: #fff;
   padding: 5px;
   margin: 5px;
+}
+
+.photo-people{
+  border-radius: 50%;
 }
 
 #app {
